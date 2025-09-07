@@ -23,37 +23,43 @@
             // lblNhapTen
             // 
             lblNhapTen.AutoSize = true;
-            lblNhapTen.Location = new Point(30, 40);
+            lblNhapTen.Font = new Font("Microsoft New Tai Lue", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblNhapTen.Location = new Point(132, 109);
             lblNhapTen.Name = "lblNhapTen";
-            lblNhapTen.Size = new Size(148, 20);
+            lblNhapTen.Size = new Size(212, 27);
             lblNhapTen.TabIndex = 0;
             lblNhapTen.Text = "Nhập tên người chơi:";
+            lblNhapTen.Click += lblNhapTen_Click;
             // 
             // txtTenNguoiChoi
             // 
-            txtTenNguoiChoi.Location = new Point(180, 37);
+            txtTenNguoiChoi.Anchor = AnchorStyles.None;
+            txtTenNguoiChoi.Location = new Point(365, 88);
+            txtTenNguoiChoi.Multiline = true;
             txtTenNguoiChoi.Name = "txtTenNguoiChoi";
-            txtTenNguoiChoi.Size = new Size(200, 27);
+            txtTenNguoiChoi.Size = new Size(260, 67);
             txtTenNguoiChoi.TabIndex = 1;
             // 
             // btnDangNhap
             // 
-            btnDangNhap.Location = new Point(180, 80);
+            btnDangNhap.Font = new Font("Microsoft New Tai Lue", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDangNhap.Location = new Point(414, 212);
             btnDangNhap.Name = "btnDangNhap";
-            btnDangNhap.Size = new Size(75, 23);
+            btnDangNhap.Size = new Size(140, 63);
             btnDangNhap.TabIndex = 2;
             btnDangNhap.Text = "Đăng nhập";
             btnDangNhap.Click += btnDangNhap_Click;
             // 
-            // FromDangNhap
+            // FormDangNhap
             // 
-            ClientSize = new Size(420, 150);
+            BackgroundImageLayout = ImageLayout.Center;
+            ClientSize = new Size(1075, 428);
             Controls.Add(lblNhapTen);
             Controls.Add(txtTenNguoiChoi);
             Controls.Add(btnDangNhap);
-            Name = "FromDangNhap";
+            Name = "FormDangNhap";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng nhập - Vua Tiếng Việt";
-            Load += FromDangNhap_Load;
             ResumeLayout(false);
             PerformLayout();
         }

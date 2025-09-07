@@ -10,46 +10,59 @@
 
         private void InitializeComponent()
         {
-            this.lblChon = new Label();
-            this.btnDe = new Button();
-            this.btnTrungBinh = new Button();
-            this.btnKho = new Button();
-            this.SuspendLayout();
+            lblChon = new Label();
+            btnDe = new Button();
+            btnTrungBinh = new Button();
+            btnKho = new Button();
+            SuspendLayout();
             // 
             // lblChon
             // 
-            this.lblChon.AutoSize = true;
-            this.lblChon.Location = new System.Drawing.Point(120, 20);
-            this.lblChon.Text = "Chọn cấp độ chơi:";
+            lblChon.AutoSize = true;
+            lblChon.Location = new Point(120, 20);
+            lblChon.Name = "lblChon";
+            lblChon.Size = new Size(128, 20);
+            lblChon.TabIndex = 0;
+            lblChon.Text = "Chọn cấp độ chơi:";
             // 
             // btnDe
             // 
-            this.btnDe.Text = "Dễ";
-            this.btnDe.Location = new System.Drawing.Point(50, 60);
-            this.btnDe.Click += new EventHandler(this.btnDe_Click);
+            btnDe.Location = new Point(50, 60);
+            btnDe.Name = "btnDe";
+            btnDe.Size = new Size(75, 23);
+            btnDe.TabIndex = 1;
+            btnDe.Text = "Dễ";
+            btnDe.Click += btnDe_Click;
             // 
             // btnTrungBinh
             // 
-            this.btnTrungBinh.Text = "Trung bình";
-            this.btnTrungBinh.Location = new System.Drawing.Point(150, 60);
-            this.btnTrungBinh.Click += new EventHandler(this.btnTrungBinh_Click);
+            btnTrungBinh.Location = new Point(150, 60);
+            btnTrungBinh.Name = "btnTrungBinh";
+            btnTrungBinh.Size = new Size(75, 23);
+            btnTrungBinh.TabIndex = 2;
+            btnTrungBinh.Text = "Trung bình";
+            btnTrungBinh.Click += btnTrungBinh_Click;
             // 
             // btnKho
             // 
-            this.btnKho.Text = "Khó";
-            this.btnKho.Location = new System.Drawing.Point(280, 60);
-            this.btnKho.Click += new EventHandler(this.btnKho_Click);
+            btnKho.Location = new Point(280, 60);
+            btnKho.Name = "btnKho";
+            btnKho.Size = new Size(75, 23);
+            btnKho.TabIndex = 3;
+            btnKho.Text = "Khó";
+            btnKho.Click += btnKho_Click;
             // 
             // FormCapDo
             // 
-            this.ClientSize = new System.Drawing.Size(400, 150);
-            this.Controls.Add(this.lblChon);
-            this.Controls.Add(this.btnDe);
-            this.Controls.Add(this.btnTrungBinh);
-            this.Controls.Add(this.btnKho);
-            this.Text = "Cấp độ - Vua Tiếng Việt";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            ClientSize = new Size(400, 150);
+            Controls.Add(lblChon);
+            Controls.Add(btnDe);
+            Controls.Add(btnTrungBinh);
+            Controls.Add(btnKho);
+            Name = "FormCapDo";
+            Text = "Cấp độ - Vua Tiếng Việt";
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }

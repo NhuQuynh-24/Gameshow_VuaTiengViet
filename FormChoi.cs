@@ -29,16 +29,32 @@ namespace Gameshow_VuaTiengViet
 
         private void TaiCauHoi()
         {
-            var tatCaDong = File.ReadAllLines("CauHoi_DinhDang.txt");
+            try
+            {
+                var tatCaDong = File.ReadAllLines("CauHoi_DinhDang.txt");
+                var danhSach = tatCaDong.Select(PhanTichDong).ToList();
 
-            // Phân tích toàn bộ câu hỏi từ file
-            var danhSach = tatCaDong.Select(PhanTichDong).ToList();
+                // Lọc theo cấp độ và lấy 10 câu hỏi ngẫu nhiên
+                dsCauHoi = danhSach.Where(q => q.DoKho.Equals(capDo, StringComparison.OrdinalIgnoreCase))
+                                   .OrderBy(x => rnd.Next())
+                                   .Take(10)
+                                   .ToList();
 
-            // Lọc theo cấp độ (dùng cột độ khó ở cuối dòng file)
-            danhSach = danhSach.Where(q => q.DoKho.Equals(capDo, StringComparison.OrdinalIgnoreCase)).ToList();
-
-            // Random lấy 10 câu không trùng
-            dsCauHoi = danhSach.OrderBy(x => rnd.Next()).Take(10).ToList();
+                if (dsCauHoi.Count == 0)
+                {
+                    MessageBox.Show($"Không tìm thấy câu hỏi nào cho cấp độ {capDo}. Vui lòng chọn cấp độ khác.");
+                    FormCapDo f = new FormCapDo();
+                    f.Show();
+                    this.Hide();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi khi tải câu hỏi: {ex.Message}");
+                FormCapDo f = new FormCapDo();
+                f.Show();
+                this.Hide();
+            }
         }
 
         private CauHoi PhanTichDong(string dong)
@@ -46,10 +62,10 @@ namespace Gameshow_VuaTiengViet
             var parts = dong.Split('|');
             return new CauHoi
             {
-                NoiDung = parts[0],
-                DapAn = new string[] { parts[1], parts[2], parts[3], parts[4] },
-                DapAnDung = parts[5],
-                DoKho = parts.Length > 6 ? parts[6] : "Dễ"  // nếu thiếu cột thì mặc định là Dễ
+                NoiDung = parts[0].Trim(),
+                DapAn = new string[] { parts[1].Trim(), parts[2].Trim(), parts[3].Trim(), parts[4].Trim() },
+                DapAnDung = parts[5].Trim(),
+                DoKho = parts.Length > 6 ? parts[6].Trim() : "Dễ"
             };
         }
 
@@ -57,7 +73,7 @@ namespace Gameshow_VuaTiengViet
         {
             if (chiSoHienTai >= dsCauHoi.Count)
             {
-                FormDiem f = new FormDiem(diemSo, dsCauHoi.Count);
+                FormDiem f = new FormDiem(diemSo, dsCauHoi.Count, capDo);
                 f.Show();
                 this.Hide();
                 return;
@@ -77,10 +93,22 @@ namespace Gameshow_VuaTiengViet
 
         private void KiemTraDapAn(string luaChon)
         {
+            timer1.Stop();
             var q = dsCauHoi[chiSoHienTai];
-            if (luaChon == q.DapAnDung) diemSo++;
-            chiSoHienTai++;
-            HienThiCauHoi();
+
+            // So sánh có Trim() và bỏ qua hoa/thường
+            if (luaChon.Trim().Equals(q.DapAnDung.Trim(), StringComparison.OrdinalIgnoreCase))
+            {
+                diemSo++;
+                chiSoHienTai++;
+                HienThiCauHoi();
+            }
+            else
+            {
+                FormDiem f = new FormDiem(diemSo, dsCauHoi.Count, capDo);
+                f.Show();
+                this.Hide();
+            }
         }
 
         private void btnA_Click(object sender, EventArgs e) => KiemTraDapAn("A");
@@ -90,18 +118,18 @@ namespace Gameshow_VuaTiengViet
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            lblThoiGian.Text = $"Thời gian: {thoiGian--}s";
+            thoiGian--;
+            lblThoiGian.Text = $"Thời gian: {thoiGian}s";
             if (thoiGian < 0)
             {
-                chiSoHienTai++;
-                HienThiCauHoi();
+                timer1.Stop();
+                FormDiem f = new FormDiem(diemSo, dsCauHoi.Count, capDo);
+                f.Show();
+                this.Hide();
             }
         }
 
-        private void FormChoi_Load(object sender, EventArgs e)
-        {
-
-        }
+        private void FormChoi_Load(object sender, EventArgs e) { }
     }
 
     public class CauHoi
@@ -109,6 +137,6 @@ namespace Gameshow_VuaTiengViet
         public string NoiDung { get; set; }
         public string[] DapAn { get; set; }
         public string DapAnDung { get; set; }
-        public string DoKho { get; set; }   // thêm độ khó
+        public string DoKho { get; set; }
     }
 }

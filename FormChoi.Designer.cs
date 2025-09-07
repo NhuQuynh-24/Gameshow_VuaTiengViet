@@ -22,68 +22,82 @@ namespace Gameshow_VuaTiengViet
 
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();   // <- thêm dòng này
-            this.lblCauHoi = new Label();
-            this.lblThoiGian = new Label();
-            this.btnA = new Button();
-            this.btnB = new Button();
-            this.btnC = new Button();
-            this.btnD = new Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);  // <- và dòng này
-
-            this.SuspendLayout();
+            components = new Container();
+            lblCauHoi = new Label();
+            lblThoiGian = new Label();
+            btnA = new Button();
+            btnB = new Button();
+            btnC = new Button();
+            btnD = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
+            SuspendLayout();
             // 
             // lblCauHoi
             // 
-            this.lblCauHoi.Location = new System.Drawing.Point(20, 20);
-            this.lblCauHoi.Size = new System.Drawing.Size(500, 40);
-            this.lblCauHoi.Text = "Câu hỏi sẽ hiển thị ở đây";
+            lblCauHoi.Location = new Point(20, 20);
+            lblCauHoi.Name = "lblCauHoi";
+            lblCauHoi.Size = new Size(500, 40);
+            lblCauHoi.TabIndex = 0;
+            lblCauHoi.Text = "Câu hỏi sẽ hiển thị ở đây";
             // 
             // lblThoiGian
             // 
-            this.lblThoiGian.Location = new System.Drawing.Point(400, 300);
-            this.lblThoiGian.Text = "Thời gian: 20s";
+            lblThoiGian.Location = new Point(400, 300);
+            lblThoiGian.Name = "lblThoiGian";
+            lblThoiGian.Size = new Size(100, 23);
+            lblThoiGian.TabIndex = 1;
+            lblThoiGian.Text = "Thời gian: 20s";
             // 
             // btnA
             // 
-            this.btnA.Location = new System.Drawing.Point(50, 80);
-            this.btnA.Size = new System.Drawing.Size(200, 40);
-            this.btnA.Click += new EventHandler(this.btnA_Click);
+            btnA.Location = new Point(50, 80);
+            btnA.Name = "btnA";
+            btnA.Size = new Size(200, 40);
+            btnA.TabIndex = 2;
+            btnA.Click += btnA_Click;
             // 
             // btnB
             // 
-            this.btnB.Location = new System.Drawing.Point(300, 80);
-            this.btnB.Size = new System.Drawing.Size(200, 40);
-            this.btnB.Click += new EventHandler(this.btnB_Click);
+            btnB.Location = new Point(300, 80);
+            btnB.Name = "btnB";
+            btnB.Size = new Size(200, 40);
+            btnB.TabIndex = 3;
+            btnB.Click += btnB_Click;
             // 
             // btnC
             // 
-            this.btnC.Location = new System.Drawing.Point(50, 150);
-            this.btnC.Size = new System.Drawing.Size(200, 40);
-            this.btnC.Click += new EventHandler(this.btnC_Click);
+            btnC.Location = new Point(50, 150);
+            btnC.Name = "btnC";
+            btnC.Size = new Size(200, 40);
+            btnC.TabIndex = 4;
+            btnC.Click += btnC_Click;
             // 
             // btnD
             // 
-            this.btnD.Location = new System.Drawing.Point(300, 150);
-            this.btnD.Size = new System.Drawing.Size(200, 40);
-            this.btnD.Click += new EventHandler(this.btnD_Click);
+            btnD.Location = new Point(300, 150);
+            btnD.Name = "btnD";
+            btnD.Size = new Size(200, 40);
+            btnD.TabIndex = 5;
+            btnD.Click += btnD_Click;
             // 
             // timer1
             // 
-            this.timer1.Interval = 1000; // 1 giây
-            this.timer1.Tick += new EventHandler(this.timer1_Tick);
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
             // 
             // FormChoi
             // 
-            this.ClientSize = new System.Drawing.Size(550, 350);
-            this.Controls.Add(this.lblCauHoi);
-            this.Controls.Add(this.lblThoiGian);
-            this.Controls.Add(this.btnA);
-            this.Controls.Add(this.btnB);
-            this.Controls.Add(this.btnC);
-            this.Controls.Add(this.btnD);
-            this.Text = "Chơi - Vua Tiếng Việt";
-            this.ResumeLayout(false);
+            ClientSize = new Size(550, 350);
+            Controls.Add(lblCauHoi);
+            Controls.Add(lblThoiGian);
+            Controls.Add(btnA);
+            Controls.Add(btnB);
+            Controls.Add(btnC);
+            Controls.Add(btnD);
+            Name = "FormChoi";
+            Text = "Chơi - Vua Tiếng Việt";
+            Load += FormChoi_Load;
+            ResumeLayout(false);
         }
     }
 }

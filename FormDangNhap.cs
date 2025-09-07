@@ -7,6 +7,8 @@
         public FormDangNhap()
         {
             InitializeComponent();
+            Load += FormDangNhap_Load;
+
         }
 
         private void btnDangNhap_Click(object sender, EventArgs e)
@@ -22,7 +24,9 @@
             this.Hide();
         }
 
-        private void FromDangNhap_Load(object sender, EventArgs e)
+        private void FormDangNhap_Load(object sender, EventArgs e) { }
+
+        private void lblNhapTen_Click(object sender, EventArgs e)
         {
 
         }

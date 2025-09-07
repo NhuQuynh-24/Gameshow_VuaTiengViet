@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formchoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formchoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formdiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formchoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formchoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formchoi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formchoi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formch\u1ECDnc\u1EA5p\u0111\u1ED9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formch\u1ECDnc\u1EA5p\u0111\u1ED9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formch\u1ECDnc\u1EA5p\u0111\u1ED9.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formch\u1ECDnc\u1EA5p\u0111\u1ED9.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|c:\\users\\laptop vinhlink\\documents\\c#\\gameshow_vuatiengviet\\formch\u1ECDnc\u1EA5p\u0111\u1ED9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{316EF4EA-97D3-414A-9304-963B941DA3DE}|Gameshow_VuaTiengViet.csproj|solutionrelative:formch\u1ECDnc\u1EA5p\u0111\u1ED9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T09:02:39.57Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormChoi.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormChoi.cs",
+              "RelativeDocumentMoniker": "FormChoi.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormChoi.cs",
+              "RelativeToolTip": "FormChoi.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAQwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T08:07:11.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T16:24:32.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAywBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:46:59.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormDiem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormDiem.cs",
+              "RelativeDocumentMoniker": "FormDiem.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormDiem.cs [Design]",
+              "RelativeToolTip": "FormDiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T08:56:41.666Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:57:15.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDiem.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormDiem.cs",
+              "RelativeDocumentMoniker": "FormDiem.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormDiem.cs",
+              "RelativeToolTip": "FormDiem.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T08:59:37.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormDiem.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormDiem.Designer.cs",
+              "RelativeDocumentMoniker": "FormDiem.Designer.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormDiem.Designer.cs",
+              "RelativeToolTip": "FormDiem.Designer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T08:57:53.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormChoi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormChoi.cs",
+              "RelativeDocumentMoniker": "FormChoi.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormChoi.cs [Design]",
+              "RelativeToolTip": "FormChoi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T08:37:42.716Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormChoi.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormChoi.Designer.cs",
+              "RelativeDocumentMoniker": "FormChoi.Designer.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormChoi.Designer.cs",
+              "RelativeToolTip": "FormChoi.Designer.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T08:06:24.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.Designer.cs",
+              "RelativeDocumentMoniker": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.Designer.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.Designer.cs",
+              "RelativeToolTip": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.Designer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:54:49.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs",
+              "RelativeDocumentMoniker": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs",
+              "RelativeToolTip": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAawBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:50:06.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs",
+              "RelativeDocumentMoniker": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs",
+              "ToolTip": "C:\\Users\\Laptop VINHLINK\\Documents\\C#\\Gameshow_VuaTiengViet\\FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs [Design]",
+              "RelativeToolTip": "FormCh\u1ECDnC\u1EA5p\u0110\u1ED9.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:49:40.409Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Gameshow_VuaTiengViet/1.0.0": {
+        "runtime": {
+          "Gameshow_VuaTiengViet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gameshow_VuaTiengViet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

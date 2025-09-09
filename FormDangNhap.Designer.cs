@@ -29,7 +29,6 @@
             lblNhapTen.Size = new Size(212, 27);
             lblNhapTen.TabIndex = 0;
             lblNhapTen.Text = "Nhập tên người chơi:";
-            lblNhapTen.Click += lblNhapTen_Click;
             // 
             // txtTenNguoiChoi
             // 

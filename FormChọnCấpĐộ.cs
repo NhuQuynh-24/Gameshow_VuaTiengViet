@@ -19,18 +19,25 @@ namespace Gameshow_VuaTiengViet
         public FormCapDo()
         {
             InitializeComponent();
+            this.FormClosing += FormCapDo_FormClosing;
             CapNhatTrangThaiNut();
+        }
+
+        private void FormCapDo_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void CapNhatTrangThaiNut()
         {
+            btnDe.Enabled = true;
             btnTrungBinh.Enabled = DaHoanThanhDe;
             btnKho.Enabled = DaHoanThanhTrungBinh;
         }
 
         private void btnDe_Click(object sender, EventArgs e)
         {
-            new FormChoi("Dễ").Show();
+            new FormChoi("1").Show();
             this.Hide();
         }
 
@@ -38,8 +45,12 @@ namespace Gameshow_VuaTiengViet
         {
             if (DaHoanThanhDe)
             {
-                new FormChoi("Trung bình").Show();
+                new FormChoi("2").Show();
                 this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần hoàn thành cấp độ Dễ với đủ điểm để mở khóa cấp độ này.");
             }
         }
 
@@ -47,8 +58,12 @@ namespace Gameshow_VuaTiengViet
         {
             if (DaHoanThanhTrungBinh)
             {
-                new FormChoi("Khó").Show();
+                new FormChoi("3").Show();
                 this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Bạn cần hoàn thành cấp độ Trung bình với đủ điểm để mở khóa cấp độ này.");
             }
         }
     }

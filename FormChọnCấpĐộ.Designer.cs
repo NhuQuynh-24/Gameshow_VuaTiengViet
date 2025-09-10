@@ -8,7 +8,7 @@
         private Label lblChon;
         private Button btnDe, btnTrungBinh, btnKho;
 
-        private void InitializeComponent()
+    private void InitializeComponent()
         {
             lblChon = new Label();
             btnDe = new Button();
@@ -18,43 +18,51 @@
             // 
             // lblChon
             // 
-            lblChon.AutoSize = true;
-            lblChon.Location = new Point(120, 20);
+            lblChon.AutoSize = false;
+            lblChon.Location = new Point(0, 60);
             lblChon.Name = "lblChon";
-            lblChon.Size = new Size(128, 20);
+            lblChon.Size = new Size(1350, 60);
             lblChon.TabIndex = 0;
-            lblChon.Text = "Chọn cấp độ chơi:";
+            lblChon.Text = "CHỌN CẤP ĐỘ CHƠI";
+            lblChon.Font = new Font("Segoe UI", 32F, FontStyle.Bold);
+            lblChon.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btnDe
             // 
-            btnDe.Location = new Point(50, 60);
+            btnDe.Location = new Point(200, 250);
             btnDe.Name = "btnDe";
-            btnDe.Size = new Size(75, 23);
+            btnDe.Size = new Size(300, 120);
             btnDe.TabIndex = 1;
             btnDe.Text = "Dễ";
+            btnDe.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            btnDe.BackColor = Color.LightGreen;
             btnDe.Click += btnDe_Click;
             // 
             // btnTrungBinh
             // 
-            btnTrungBinh.Location = new Point(150, 60);
+            btnTrungBinh.Location = new Point(525, 250);
             btnTrungBinh.Name = "btnTrungBinh";
-            btnTrungBinh.Size = new Size(75, 23);
+            btnTrungBinh.Size = new Size(300, 120);
             btnTrungBinh.TabIndex = 2;
             btnTrungBinh.Text = "Trung bình";
+            btnTrungBinh.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            btnTrungBinh.BackColor = Color.Khaki;
             btnTrungBinh.Click += btnTrungBinh_Click;
             // 
             // btnKho
             // 
-            btnKho.Location = new Point(280, 60);
+            btnKho.Location = new Point(850, 250);
             btnKho.Name = "btnKho";
-            btnKho.Size = new Size(75, 23);
+            btnKho.Size = new Size(300, 120);
             btnKho.TabIndex = 3;
             btnKho.Text = "Khó";
+            btnKho.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
+            btnKho.BackColor = Color.LightCoral;
             btnKho.Click += btnKho_Click;
             // 
             // FormCapDo
             // 
-            ClientSize = new Size(400, 150);
+            ClientSize = new Size(1350, 700);
             Controls.Add(lblChon);
             Controls.Add(btnDe);
             Controls.Add(btnTrungBinh);
@@ -62,7 +70,6 @@
             Name = "FormCapDo";
             Text = "Cấp độ - Vua Tiếng Việt";
             ResumeLayout(false);
-            PerformLayout();
         }
     }
 }
